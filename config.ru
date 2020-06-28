@@ -1,5 +1,5 @@
-require 'rack/unreloader'
-Unreloader = Rack::Unreloader.new{App}
-require 'roda'
-Unreloader.require './app.rb'
-run Unreloader
+require_relative 'config/environment'
+
+map '/ads' do
+  run AdRoutes
+end
