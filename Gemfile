@@ -5,7 +5,7 @@ source "https://rubygems.org"
 git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
 
 gem 'rake', '~> 13.0', '>= 13.0.1'
-gem 'puma', '~> 4.3', '>= 4.3.5'
+gem 'puma', '~> 4.3'
 
 gem 'roda', '~> 3.33'
 gem 'roda-symbolized_params', '~> 0.0.2'
