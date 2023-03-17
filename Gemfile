@@ -19,7 +19,7 @@ gem 'sequel', '~> 5.33'
 gem 'dry-initializer', '~> 3.0', '>= 3.0.3'
 gem 'dry-validation', '~> 1.5', '>= 1.5.1'
 
-gem 'activesupport', '~> 6.0', '>= 6.0.3.2', require: false
+gem 'activesupport', '~> 6.1', require: false
 gem 'fast_jsonapi', '~> 1.5'
 
 # gem 'rack-unreloader', require: false
